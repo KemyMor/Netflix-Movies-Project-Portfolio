@@ -35,8 +35,12 @@ After converting the data into a table and applying some basic modifications suc
 ### Identify And Eliminate Duplicate Data
 
 Now that we’re done rectifying the outliers, we should consider duplicate data. In this dataset, there are several duplicate values but not the ones that matter.
+![Netflix_Data_Duplication](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_Data_Duplication.jpg)
 
 ### Identify column with irregualr data
+For instance, this country coloumns has different countries on same row. This has to be corrected by spilitting. 
+![Netflix_Country](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_Country.jpg)
+
 Select the data: Highlight the range of cells containing the text you want to split.
 Access the Text to Columns wizard:
 Go to the "Data" tab on the Excel ribbon.
@@ -57,11 +61,14 @@ After completing these steps, Excel will separate the text into different column
 
 If you prefer using formulas, you can also use the Text functions like LEFT, MID, RIGHT, or the combination of FIND and MID to extract the text into separate columns. However, the Text to Columns feature is usually more convenient for this task, especially for large datasets.
 
+![Netflix_NewCountry](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_NewCountry.jpg)
+
 ## Step 3: Generating Insights From The Cleansed Dataset
 Here’s when the interesting part arrives!
 
 Remember the objective questions I listed above? We’ll try finding the answers to each of them now.
 
+![Netflix_Coverage](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_Coverage.jpg)
 Answer 1
 
 Our first task is to count the number of titles with a runtime of 100 minutes. To accomplish this, I’ll be using the countifs formula. The first task we’ll be doing is to create a pivot table in a new sheet.
@@ -91,8 +98,9 @@ Now, how about a shortcut?
 
 You can easily add a slicer to the pivot table, and it’ll list the available durations and list only those values matching the criteria. Slicer acts as a filter and can easily simplify your work.
 
+![Netflix_Count](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_Count.jpg)
 
-Source: Photo by Author
+![Netflix_Slicers](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_Slicers.jpg)
 As you can see above, the slicer returns the same count as the formula I wrote, which means our first question has an answer!
 
 Answer 2, 3:
