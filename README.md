@@ -146,5 +146,6 @@ XLOOKUP(G6,C8:C6177,A8:A6177)
 Source: Photo by Author
 Conclusion
 Okay, so it has been a long discussion (almost 1500 words) and you probably need a long coffee break because I do, too. So, I wouldn’t take a lot of your time. Just wanted to let you know that I’m so glad I completed this article, even if it took me quite a long time. I would be even more glad if it helped you.
+![Netflix_Dashboard](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_Dashboard.jpg)
 
 Stay tuned for more such extensive case studies with interactive dashboards. Have a good day, folks!
