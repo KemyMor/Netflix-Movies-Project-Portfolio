@@ -24,8 +24,7 @@ While this isn’t a step many are talking about, it is quite essential. You nee
 The table provides features normal rows and columns don’t, including filters and pivot tables.
 
 After converting the data into a table and applying some basic modifications such as alignment and styling, my table looks!
-![TotalNumberOfCountries](https://github.com/KemyMor/Deforestation_Cohort-Project.Sql/blob/84cf8ec125476eb60b8bb647e58882f864799598/TotalNumberOfCountries.jpg)
-Netflix_Table.jpg
+![Netflix_Table](https://github.com/KemyMor/Netflix-Movies-Project-Portfolio/blob/main/Netflix_Table.jpg)
 
 ### Identify And Eliminate Duplicate Data
 
