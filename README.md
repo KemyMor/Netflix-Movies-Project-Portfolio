@@ -20,6 +20,12 @@ Though you could derive tens and hundreds of questions, I have addressed these f
 ## Step 1: Studying The Data
 While this isn’t a step many are talking about, it is quite essential. You need to study your data. It doesn’t have to be extensive, just sift through the data, note down the column labels and the content of your data before you roll your sleeves.
 
+Quick insight:
+
+The number of rows: 8808
+
+The number of columns: 11
+
 ## Step 2: Converting the data to Table
 The table provides features normal rows and columns don’t, including filters and pivot tables.
 
@@ -51,7 +57,6 @@ After completing these steps, Excel will separate the text into different column
 
 If you prefer using formulas, you can also use the Text functions like LEFT, MID, RIGHT, or the combination of FIND and MID to extract the text into separate columns. However, the Text to Columns feature is usually more convenient for this task, especially for large datasets.
 
-If you have any further questions or need assistance with a specific scenario, feel free to ask!
 ## Step 3: Generating Insights From The Cleansed Dataset
 Here’s when the interesting part arrives!
 
